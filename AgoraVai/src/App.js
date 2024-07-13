@@ -3,13 +3,13 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 import A, { } from './componentes/Primeiro'; 
 import Titulo, {} from './componentes/Titulo'
 import Botao, {} from './componentes/Botao'
+import Contador from './componentes/Contador'
 
 
 export default () => (
   <SafeAreaView style={styles.container}>
-    <Titulo principal="Cadastro Produto"
-    secundario="Tela de Cadastramento"/>
-    <Botao/>
+    <Contador inicial ={100} passo={13}/>
+    
   </SafeAreaView>
 );
 
