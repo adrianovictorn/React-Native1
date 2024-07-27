@@ -13,8 +13,8 @@ export default props => {
     return (
         <>
             <Text style={Estilo.ex}>{numero}</Text>
-            <Button title="+" onPress={(inc)}/>
-            <Button title="-" onPress={{enc}}/> 
+            <Button title="+" onPress={inc}/>
+            <Button title="-" onPress={enc}/> 
         
         
         </>

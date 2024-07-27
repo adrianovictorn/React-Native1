@@ -1,0 +1,18 @@
+{
+
+	 "Componente Funcional": {
+	 	"scope": "javascript,typescript",
+	 	"prefix": "compfuc",
+	 	"body": [
+	 		"import React from 'react'",
+			"import Estilo from './estilo'",
+			"export default props => {",
+			"    return(",
+			"          <Text style={Estilo.ex}>$1</Text>",
+			"    )",
+			"}",
+	 		"$2"
+	 	],
+		"description": "Log output to console"
+	}
+}
